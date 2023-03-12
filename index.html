@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+		integrity=
+"sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    
+    <div class="fst">
+        <h1>Calculator</h1>
+        <div class="display">
+            <input class="output" type="text">
+        </div>
+
+    <div class="main" >
+        <div class="btn">
+            <button onclick="myfunction('1')">1</button>
+            <button onclick="myfunction('2')">2</button>
+            <button onclick="myfunction('3')">3</button><br>
+            <button onclick="myfunction('4')">4</button>
+            <button onclick="myfunction('5')">5</button>
+            <button onclick="myfunction('6')">6</button><br>
+            <button onclick="myfunction('7')">7</button>
+            <button onclick="myfunction('8')">8</button>
+            <button onclick="myfunction('9')">9</button><br>
+            <button onclick="myfunction('0')">0</button>
+            <button onclick="result('=')">=</button>
+        </div>
+        <div class="opr">
+            <button onclick="myfunction('*')">*</button><br>
+            <button onclick="myfunction('/')">/</button><br>
+            <button onclick="myfunction('-')">-</button><br>
+            <button onclick="myfunction('+')">+</button>
+         </div>
+    </div>
+
+    <div id="cal2"> </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

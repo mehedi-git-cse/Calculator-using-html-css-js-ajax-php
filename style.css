@@ -1,0 +1,31 @@
+.main{
+    
+    justify-content: center;
+    display: flex;
+   
+  
+}
+.fst{
+    background-color: antiquewhite;
+    text-align: center;
+    width: auto;
+}
+h1{
+    text-align: center;
+}
+.store,input{
+    margin: 8px;
+}
+.btn, button{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.opr, button{
+    margin: 5px;
+    padding: 5px;
+}
+.output{
+    width: 200px;
+    height: 80px;
+}
